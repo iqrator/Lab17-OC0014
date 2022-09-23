@@ -1,0 +1,179 @@
+html {
+        writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
+        -epub-writing-mode: vertical-rl;
+        -epub-line-break: strict;
+        line-break: strict;
+        -epub-word-break: normal;
+        word-break: normal;	
+}
+body { 
+	font-family: sans-serif; 
+	font-size: 12pt; 
+	line-height: 1.7em; 
+	text-indent: 2em; 
+	text-orientation: upright;
+	font-weight: 200;
+}
+/*標題*/
+h1.chapter {
+	text-indent: 0em;
+	line-height: 1.7em; 
+	font-size: 12pt;
+	color: #624cdb;
+	border-left: 1px dotted #80bd94;
+	border-right: 4px solid #80bd94;
+	font-weight: 200;
+	margin: 4em 4em 4em 4em;
+}
+/*章*/
+h2.section {
+	text-indent: 0em;
+	font-size: 14pt;
+	color: #d2a300;
+}
+/*節*/
+h3.paragraph {
+	text-indent: 0em;
+	font-size: 13pt;
+	color: #bd3232;
+}
+/*扉頁*/
+p.titlepage1 {
+	text-indent: 0em;
+	font-size: 10pt;
+	line-height: 1.6em;
+	color: #6b6760;
+	border: 1px solid;
+	border-color: #ada197;
+	padding: 1.5em;
+	resize: both;
+	overflow: auto;
+}
+p.titlepage2 {
+	text-indent: 2em;
+	font-size: 90%;
+	line-height: 2em;
+}
+/*內容提要*/
+p.summary1 {
+	text-indent: 2em;
+	font-size: 90%;
+	line-height: 1.5em;
+	border: 1px solid;
+	padding: 1.5em;
+	resize: both;
+	overflow: auto;
+}
+p.summary2 {
+	text-indent: 2em;
+	font-size: 90%;
+	line-height: 1.5em;
+}
+/*版權*/
+p.copyright {
+	text-indent: 2em;
+	font-size: 115%;
+	line-height: 1em;
+}
+/*序-出版者*/
+p.foreword1 {
+	text-indent: 2em;
+	font-size: 90%;
+	line-height:1.5em;
+}
+p.foreword2 {
+	text-indent:2em;
+	font-size:90%;
+	line-height: 1.5em;
+}
+/*序-作者本人*/
+p.preface {
+	text-indent: 2em;
+	font-size: 115%;
+	line-height: 1em;
+}
+/*作者感謝文*/
+p.acknowledgements {
+	text-indent: 2em;
+	font-size: 115%;
+	line-height: 1em;
+}
+/*引言*/
+p.introduction {
+	font-size: 90%;
+	line-height: 2em;
+	page-break-before: always;
+}
+/*目錄*/
+p.tableofcontent1 {
+	text-indent: 0em;
+	font-size: 8pt;
+	line-height: 2em;
+	color: #793b08;
+}
+p.tableofcontent2 {
+	text-indent: 2em;
+	font-size: 10pt;
+	line-height: 1.3em;
+	color: #6c6c6c;
+	text-decoration: underline;
+	text-decoration-style: dotted #818181;
+}
+/*索引*/
+p.index {
+	font-size: 120%;
+	line-height: 1em;
+}
+/*附錄*/
+p.appendix {
+	font-size: 120%;
+	line-height: 1em;
+}
+/*後記*/
+p.epilogue {
+	font-size: 120%;
+	line-height: 1em;
+}
+/*參考文獻*/
+p.reference {
+	font-size:120%;
+	line-height:1em;
+}
+/*內文-對話*/
+p.text1 {
+	font-family: cursive;
+	font-size: 12pt;
+	margin: 2em 2em 2em 2em;
+	line-height: 1.5em;
+	text-indent: 0em;
+}
+/*內文-書信歌*/
+p.text2 {
+	font-family: cursive;
+	font-size: 11pt;
+	text-indent: 0em;
+	line-height: 1.3em;
+	color: #4e62a9;
+	margin: 2em 2em 2em 2em;
+}
+/*內文-註釋*/
+p.text3 {
+	font-size: 9pt;
+	color: #7e7e7e;
+	margin: 2em 2em 2em 2em;
+	line-height: 1.5em;
+	text-indent: 0em;
+}
+/*內文-攥寫日期*/
+p.text4 {
+	text-indent: 0em;
+	font-size: 9pt;
+	line-height: 1.3em;
+	text-align: right;
+	color: #7b7b7b;
+}
+.memo {
+	font-size: 10pt;
+	color: #7b7b7b;
+}
